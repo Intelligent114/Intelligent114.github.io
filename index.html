@@ -1,9 +1,71 @@
-<html>
+<!doctype html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <title>E:\dev\Intelligent114.github.io\index.html</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Purinum / Intelligent114 的个人主页与项目入口。">
+  <meta name="theme-color" content="#0a0c0f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Purinum · Intelligent114">
+  <meta property="og:description" content="Notes, teaching materials and small experiments.">
+  <meta property="og:url" content="https://temaurinum.moe/">
+  <link rel="canonical" href="https://temaurinum.moe/">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Purinum · Intelligent114</title>
 </head>
-<body>
-<h1>Hell World!</h1>
+<body id="top">
+  <main>
+    <header class="topbar">
+      <a class="wordmark" href="/">PURINUM<span>·</span></a>
+      <nav aria-label="主要导航">
+        <a href="#work">Work</a>
+        <a href="https://github.com/Intelligent114">GitHub ↗</a>
+      </nav>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="kicker">Intelligent114 / temaurinum.moe</p>
+      <h1 id="page-title">Notes, teaching materials<br>and <span>small experiments.</span></h1>
+      <p class="lead">一个安静地存放课程资料、学习笔记和个人项目的地方。</p>
+      <a class="primary-link" href="#work">查看正在维护的内容 <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="section-label">
+        <p>Selected work</p>
+        <span>2026</span>
+      </div>
+      <h2 id="work-title" class="sr-only">正在维护的内容</h2>
+
+      <a class="project project-featured" href="https://ta.temaurinum.moe">
+        <div>
+          <p class="project-index">01 / Teaching</p>
+          <h3>TA · Course Archive</h3>
+          <p>线性代数、计算方法，以及即将开始的人工智能与机器学习基础课程资料。</p>
+        </div>
+        <div class="project-meta">
+          <span>ta.temaurinum.moe</span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+
+      <div class="project-row">
+        <a class="project" href="https://github.com/Intelligent114/LAE">
+          <div><p class="project-index">02 / Mathematics</p><h3>Linear Algebra</h3><p>作业解答、习题课讲义与复习资料。</p></div>
+          <div class="project-meta"><span>GitHub repository</span><span class="arrow" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="project" href="https://github.com/Intelligent114/CMExercise">
+          <div><p class="project-index">03 / Numerical</p><h3>Computational Methods</h3><p>课程作业、实验和计算方法资料。</p></div>
+          <div class="project-meta"><span>GitHub repository</span><span class="arrow" aria-hidden="true">↗</span></div>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Purinum · Intelligent114</p>
+      <p>Built quietly on GitHub Pages.</p>
+      <a href="#top" aria-label="回到页面顶部">↑</a>
+    </footer>
+  </main>
 </body>
 </html>
